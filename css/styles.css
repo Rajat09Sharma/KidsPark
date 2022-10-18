@@ -6,7 +6,7 @@ body{
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
-    line-height: 1.5;
+    line-height: 1.25;
 }
 
 h2{
@@ -19,12 +19,29 @@ h3{
     font-size: 1.5rem;
 }
 
+h6 {
+    font-size: 1.5rem;
+}
+
 p{
     color: #fff;
 }
 
+.top-space {
+    padding: 24px 0 0 0;
+}
+
+/* a{
+    text-decoration: none;
+    text-decoration-line: none ;
+} */
+
+/* a:hover{
+    color: white;
+} */
+
 .container-fluid{
-    padding: 3% 15% 8%;
+    padding: 3% 10% 8%;
 }
 
 #title{
@@ -32,6 +49,12 @@ p{
     color: #FCE700;
     font-weight: bold;
     text-align: left;
+    height: 100vh;
+
+
+    /* flex */
+    display: flex;
+    align-items: center;
 }  
 
 /* navigation bar */
@@ -44,7 +67,7 @@ p{
 .navbar-brand{
     font-family:'Ubuntu', sans-serif; 
     font-size: 3.5rem;
-    color: #FCE700;
+    color: white;
 }
 
 .nav-item{
@@ -52,8 +75,9 @@ p{
 }
 
 .nav-link{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: lighter;
+    color: #fff;
 }
 
 /* Download buttons */
@@ -67,25 +91,15 @@ p{
 /* Title Image */
 
 .title-image{
-    width: 80%;
-
-    position: absolute;
-    right: 10%;
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 72px;
+    background: transparent;
+    /* position: absolute;
+    right: 10%; */
 
 }
 
-/* media query */
-
-/* @media (max-width:1160px){
-    .title-image{
-        position: static;
-        transform: rotate(0);
-    }
-
-    #title{
-        text-align: center;
-    }
-} */
 
 
 /* features section */
@@ -111,56 +125,21 @@ p{
     color: #ff4c68;
 }
 
-/* testimonial section */
 
-/* #testimonials{
-    background-color: #ef8172 ;
-    color: #fff;
-}
- .carousel-item{
-    padding: 7% 15%;
- }
-
-.testimonial-image{
-    width: 10%;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
-    border-bottom-right-radius: 30%;
-    border-bottom-left-radius: 30%;
-    margin: 3% 2%;
-} */
-
-/* #press{
-    background-color: #ef8172 ;
- }
-
-.press-icon{
-    width: 15%;
-    margin: 20px 20px 50px;
-} */
 
 /* activity section */
 
 #activity{
     padding: 100px;
     background-color: #FCE700;
+    min-height: 100vh;
 }
 
 .activity-column{
     padding: 3% 5%;
 }
 
-/* cta section */
 
-/* #cta{
-    background-color: #ff4c68;
-    color:#fff;
-    padding: 7% 15%;
-}
-
-.h3-cta{
-    font-size: 4rem;
-} */
 
 /* footer section */
 
@@ -206,3 +185,4 @@ img{
     margin-right: 5px;
     margin-bottom: 10px;
 }
+
